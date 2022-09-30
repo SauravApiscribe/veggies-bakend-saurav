@@ -81,4 +81,4 @@ if __name__ == '__main__':
     customize_delivery_notification_thread = threading.Thread(target=send_customize_delivery_notification, args=())
     marketing_notification_thread.start()
     customize_delivery_notification_thread.start()
-    app.run(host="127.0.0.1", port=2009, debug=True)
+    app.run(host="185.224.139.102", port=2009, debug=False)
