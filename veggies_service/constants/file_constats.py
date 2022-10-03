@@ -1,4 +1,4 @@
 #UPLOAD_PATH = '/tmp/veggies/'
-UPLOAD_PATH = "/Users/jatinbalani/Downloads/document"
+UPLOAD_PATH = '/tmp/veggies/'
 DOWNLOAD_PATH = '/data/'
-SERVER_URL = 'http://34.121.128.159'
+SERVER_URL = 'http://185.224.139.102'

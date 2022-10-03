@@ -25,7 +25,7 @@ def save_file_base64(file):
 
 
 def save_file(file):
-    filename = secure_filename('adhar card saurav.pdf')
+    filename = secure_filename(file.filename)
     file.save(os.path.join(UPLOAD_PATH, filename))
     return filename
 
