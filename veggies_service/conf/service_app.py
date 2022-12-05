@@ -57,6 +57,7 @@ api.add_resource(Coupon, 'coupon/<code>/', 'coupon/')
 api.add_resource(PricePerPoint, 'priceperpoint/<id>/', 'priceperpoint/')
 
 
+
 # api.add_resource(Notification, 'notification/<id>/', 'notification/')
 
 
@@ -81,4 +82,4 @@ if __name__ == '__main__':
     customize_delivery_notification_thread = threading.Thread(target=send_customize_delivery_notification, args=())
     marketing_notification_thread.start()
     customize_delivery_notification_thread.start()
-    app.run(host="185.224.139.102", port=3000, debug=False)
+    app.run(host="194.163.43.143", port=3000, debug=False)
